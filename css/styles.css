@@ -1,0 +1,167 @@
+body {
+  font-family: Montserrat;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 900;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+em {
+  font-weight: 300;
+}
+
+/* Headings */
+.big-heading {
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* Container */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+/* Navigation-Bar */
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-weight: 100;
+  font-size: 1.2rem;
+}
+
+/* Title-Image */
+.titleImage {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Mid-Section */
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.mid {
+  color: #ef8172;
+  /* text-align:center;
+  display:inline-block; */
+  margin-bottom: 1rem;
+}
+
+.mid:hover {
+  color: #ff4c68;
+}
+
+.boxfeatures {
+  padding: 5%;
+}
+
+
+/* Download-Buttons */
+.downloadButton {
+  margin: 5% 3% 5% 0%;
+}
+
+/* Testimonials */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  /* line-height:1.5rem; */
+}
+
+.doggo {
+  width: 10%;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding: 3%;
+}
+
+.timage {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Princing Section */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-card {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5rem;
+}
+
+@media (max-width: 900px) {
+  .titleImage {
+    position: static;
+    transform: rotate(0deg);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+/* Ending-section */
+/* Footer */
+
+.bottomicon {
+  margin: 20px 10px;
+}
+
+.copyright {
+  font-size: 0.8rem;
+}
